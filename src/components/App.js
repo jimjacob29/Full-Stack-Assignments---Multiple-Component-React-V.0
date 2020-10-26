@@ -5,9 +5,9 @@ class App extends Component {
   render() {
     return (
       <>
-        <div data-ns-test attributes="project-name">
+        <h1 data-ns-test attributes="project-name">
           project-name
-        </div>
+        </h1>
         <div data-ns-test attributes="project-description">
           project-description
         </div>
