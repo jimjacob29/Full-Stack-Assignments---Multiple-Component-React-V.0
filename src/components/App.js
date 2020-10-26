@@ -5,8 +5,12 @@ class App extends Component {
   render() {
     return (
       <>
-        <div>project-name</div>
-        <div>project-description</div>
+        <div data-ns-test attributes="project-name">
+          project-name
+        </div>
+        <div data-ns-test attributes="project-description">
+          project-description
+        </div>
       </>
     );
   }
